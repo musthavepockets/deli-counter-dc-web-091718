@@ -7,3 +7,4 @@ def line(katz_deli)
     deli_line = katz_deli.collect.with_index
     { |name, index| #{index +1}. #{name} }
     puts "The line is currently: #{deli_line.to_s}."
+  end
