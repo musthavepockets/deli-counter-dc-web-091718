@@ -5,6 +5,10 @@ def line(katz_deli)
     puts "The line is currently empty."
   else
     deli_line = katz_deli.collect.with_index { |name, index| "#{index +1}. #{name}" }
-    puts "The line is currently: #{deli_line.join" "}."
+    puts "The line is currently: #{deli_line.join" "}"
   end
-  end
+end
+  
+def take_a_number(katz_deli, name)
+  katz_deli << name
+end  
