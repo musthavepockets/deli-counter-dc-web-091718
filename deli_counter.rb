@@ -5,6 +5,6 @@ def line(katz_deli)
     puts "The line is currently empty."
   else
     deli_line = katz_deli.collect.with_index { |name, index| "#{index +1}. #{name}" }
-    puts "The line is currently: deli_line."
+    puts "The line is currently: #{deli_line.join" "}."
   end
   end
