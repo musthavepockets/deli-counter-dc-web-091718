@@ -3,4 +3,5 @@ def line(katz_deli)
     "The line is currently empty."
   else
     katz_deli.shift
+  end  
 end  
