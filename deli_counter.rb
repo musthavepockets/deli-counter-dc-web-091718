@@ -4,5 +4,4 @@ def line(katz_deli)
   else
     deli_line = katz_deli.collect.with_index { |name, index| puts #{index +1}. #{name} }
     puts "The line is currently: #{deli_line.to_s}"
-  end  
 end  
